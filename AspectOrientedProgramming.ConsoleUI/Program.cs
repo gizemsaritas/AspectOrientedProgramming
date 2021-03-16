@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using AspectOrientedProgramming.Business.Abstract;
 using AspectOrientedProgramming.Business.Concrete;
+using AspectOrientedProgramming.Core.CrossCuttingConcerns.Caching;
+using AspectOrientedProgramming.Core.CrossCuttingConcerns.Logging;
 using AspectOrientedProgramming.DataAccess.Concrete.EntityFramework;
 using AspectOrientedProgramming.DataAccess.Concrete.NHibernate;
 
@@ -19,6 +21,7 @@ namespace AspectOrientedProgramming.ConsoleUI
             {
                 Console.WriteLine(product.Name);
             }
+            Console.ReadLine();
         }
     }
 }

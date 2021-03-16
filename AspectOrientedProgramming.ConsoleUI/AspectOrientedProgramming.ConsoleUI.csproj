@@ -54,6 +54,10 @@
       <Project>{0AECD122-46EA-4EFB-BF40-0C029A1F3DFF}</Project>
       <Name>AspectOrientedProgramming.Business</Name>
     </ProjectReference>
+    <ProjectReference Include="..\AspectOrientedProgramming.Core\AspectOrientedProgramming.Core.csproj">
+      <Project>{8CF4B259-7DB9-4F83-8837-A1DFE7B88BC1}</Project>
+      <Name>AspectOrientedProgramming.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AspectOrientedProgramming.DataAccess\AspectOrientedProgramming.DataAccess.csproj">
       <Project>{4025D1D9-48AC-4C50-95C8-4BC0A821C2F0}</Project>
       <Name>AspectOrientedProgramming.DataAccess</Name>
